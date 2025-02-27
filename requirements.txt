@@ -1,0 +1,14 @@
+whisper
+gradio
+transformers
+sentence-transformers
+faiss-cpu
+numpy
+moviepy
+langchain
+langchain_community
+pandas
+streamlit
+folium
+streamlit-folium
+openai
