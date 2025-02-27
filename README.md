@@ -14,6 +14,25 @@ This project serves as a **proof of concept** for real-time transit solutions.
 
 ---
 
+### 🚀 Features
+
+### 🔹 1. AI-Powered Smart Routing
+- Users can ask for the best bus route between two stops  
+- Powered by GPT-4 via LangChain  
+
+### 🔹 2. Interactive Map
+- Visualizes bus stops on a **Folium-based map**  
+- Helps users explore available routes  
+
+### 🔹 3. Delay Alerts
+- Simulates real-time bus delays  
+- Alerts users about estimated wait times  
+
+### 🔹 4. User-Friendly Interface
+- Built using **Streamlit**  
+- Runs locally with minimal setup  
+
+
 ## **🛠️ Tech Stack**
 | Category                | Technologies Used |
 |-------------------------|------------------|
@@ -25,6 +44,8 @@ This project serves as a **proof of concept** for real-time transit solutions.
 | **Deployment**          | Streamlit Cloud (Optional) |
 
 ---
+
+
 
 ## **📂 Project Structure**
 ```plaintext
@@ -39,43 +60,9 @@ This project serves as a **proof of concept** for real-time transit solutions.
 
 
 
-### **🚀 Features**
-
-#### 🔹 **1. AI-Powered Smart Routing**
-- Users can ask for the best bus route between two stops  
-- Powered by GPT-4 via LangChain  
-
-#### 🔹 **2. Interactive Map**
-- Visualizes bus stops on a **Folium-based map**  
-- Helps users explore available routes  
-
-#### 🔹 **3. Delay Alerts**
-- Simulates real-time bus delays  
-- Alerts users about estimated wait times  
-
-#### 🔹 **4. User-Friendly Interface**
-- Built using **Streamlit**  
-- Runs locally with minimal setup  
 
 
-## **⚙️ Installation & Setup**
 
-### **🔹 1. Clone the Repository**
-```bash
-git clone https://github.com/sujeeth26/Smart-Transit-AI-Powered-Bus-Navigation.git
-cd Smart-Transit-AI-Powered-Bus-Navigation
-
-## Install Dependencies
-
-pip install -r requirements.txt
-
-## Set Up API Key (Securely)
-Create a .env file and add your OpenAI API Key:
-
-OPENAI_API_KEY=your_openai_api_key_here
-
-## Run The Application:
-streamlit run app.py
 
 
 
