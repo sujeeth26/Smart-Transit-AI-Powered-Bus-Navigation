@@ -45,6 +45,25 @@ This project serves as a **proof of concept** for real-time transit solutions.
 
 ---
 
+##⚙️ Installation & Setup
+
+### 🔹 1. Clone the Repository
+
+git clone https://github.com/sujeeth26/Smart-Transit-AI-Powered-Bus-Navigation.git
+cd Smart-Transit-AI-Powered-Bus-Navigation
+
+### 2. Install Dependencies
+
+pip install -r requirements.txt
+
+### 3.Set Up API Key (Securely)
+
+Create a .env file and add your OpenAI API Key:OPENAI_API_KEY=your_openai_api_key_here
+
+### 4.Run the Application
+
+streamlit run app.py
+
 
 
 ## **📂 Project Structure**
